@@ -38,5 +38,3 @@
 - Add utility classes for spacing or alignment
 
 ---
-
-**See `/src/css/components/_media.css` for implementation.**
