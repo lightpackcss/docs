@@ -1,10 +1,11 @@
-# Accordion Component
+# Collapse Component
 
 **Classes:** `.collapsible`, `.collapse-item`, `.collapse-toggle`, `.collapse-content`, `.collapse-icon`, `collapse-indicator`
 
 **Features:**
 - Fully customizable UI
 - Single or multiple open panels at a time (by default)
+- Make collapsible menu, navigation, accordion with ease
 
 **Example**
 
