@@ -11,42 +11,37 @@
 
 <div class="demo-container">
   <div class="collapsible">
-    <div class="collapse-item">
-        <a class="collapse-toggle">Section 1</a>
-        <div class="collapse-content">Content 1</div>
+    <div class="collapse-item mb-4 fw-700">
+        <a class="collapse-toggle fs-md cursor-pointer">Section 1</a>
+        <div class="collapse-content p-3">Content 1</div>
     </div>
-
-    <div class="collapse-item">
-        <a class="collapse-toggle">Section 2</a>
-        <div class="collapse-content">Content 2</div>
+    <div class="collapse-item mb-4 fw-700">
+        <a class="collapse-toggle fs-md cursor-pointer">Section 2</a>
+        <div class="collapse-content p-3">Content 2</div>
     </div>
-
-    <div class="collapse-item">
-        <a class="collapse-toggle">
+    <div class="collapse-item mb-4 fw-700">
+        <a class="collapse-toggle fs-md cursor-pointer">
             <span>Section 3</span>
             <span class="collapse-indicator">+</span>
         </a>
-        <div class="collapse-content">Content 3</div>
+        <div class="collapse-content p-3">Content 3</div>
     </div>
-
-    <div class="collapse-item">
-        <a class="collapse-toggle">
+    <div class="collapse-item mb-4 fw-700">
+        <a class="collapse-toggle fs-md cursor-pointer">
             <span>Section 3</span>
-            <span class="collapse-indicator" data-open="▼" data-closed="►">►</span>
+            <span class="collapse-indicator fs-xs" data-open="▼" data-closed="►">►</span>
         </a>
-        <div class="collapse-content">Content 3</div>
+        <div class="collapse-content p-3">Content 3</div>
     </div>
-
-    <div class="collapse-item">
-        <a class="collapse-toggle">
+    <div class="collapse-item mb-4 fw-700">
+        <a class="collapse-toggle fs-md cursor-pointer">
             <span>Section 3</span>
-            <span class="collapse-indicator" data-open="Hide" data-closed="Show">Show</span>
+            <span class="collapse-indicator" data-open="(hide)" data-closed="(show)">(show)</span>
         </a>
-        <div class="collapse-content">Content 3</div>
+        <div class="collapse-content p-3">Content 3</div>
     </div>
-
-    <div class="collapse-item">
-        <a class="collapse-toggle">
+    <div class="collapse-item mb-4 fw-700">
+        <a class="collapse-toggle fs-md cursor-pointer">
             <span>Section 3</span>
             <span class="collapse-indicator">
                 <svg class="collapse-icon" width="1em" height="1em" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
@@ -54,7 +49,7 @@
                 </svg>
             </span>
         </a>
-        <div class="collapse-content">Content 3</div>
+        <div class="collapse-content p-3">Content 3</div>
     </div>
   </div>
 </div>
@@ -91,7 +86,7 @@
   <div class="collapse-item">
       <a class="collapse-toggle">
           <span>Section 3</span>
-          <span class="collapse-indicator" data-open="Hide" data-closed="Show">Show</span>
+          <span class="collapse-indicator" data-open="(hide)" data-closed="(show)">(show)</span>
       </a>
       <div class="collapse-content">Content 3</div>
   </div>
