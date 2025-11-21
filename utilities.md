@@ -5,27 +5,65 @@ This file lists **every available utility class** in Lightpack CSS, grouped by c
 ---
 
 ## Spacing Utilities
-- `.gap-0` ... `.gap-9`
-- `.gap-x-0` ... `.gap-x-9`
-- `.gap-y-0` ... `.gap-y-9`
-- `.m-0` ... `.m-9`, `.mt-0` ... `.mt-9`, `.mr-0` ... `.mr-9`, `.mb-0` ... `.mb-9`, `.ml-0` ... `.ml-9`, `.mx-auto`
-- `.p-0` ... `.p-9`, `.pt-0` ... `.pt-9`, `.pr-0` ... `.pr-9`, `.pb-0` ... `.pb-9`, `.pl-0` ... `.pl-9`
-- `.px-0` ... `.px-9`, `.py-0` ... `.py-9`
+### Gap Utilities
+- `.gap-0` ... `.gap-9` - Gap on both axes
+- `.gap-x-0` ... `.gap-x-9` - Column gap only
+- `.gap-y-0` ... `.gap-y-9` - Row gap only
+
+### Margin Utilities
+- `.m-0` ... `.m-9` - All sides
+- `.mt-0` ... `.mt-9` - Top
+- `.mr-0` ... `.mr-9` - Right
+- `.mb-0` ... `.mb-9` - Bottom
+- `.ml-0` ... `.ml-9` - Left
+- `.mx-0` ... `.mx-9` - Horizontal (left + right)
+- `.my-0` ... `.my-9` - Vertical (top + bottom)
+- `.mx-auto` - Horizontal auto margin (centering)
+
+### Padding Utilities
+- `.p-0` ... `.p-9` - All sides
+- `.pt-0` ... `.pt-9` - Top
+- `.pr-0` ... `.pr-9` - Right
+- `.pb-0` ... `.pb-9` - Bottom
+- `.pl-0` ... `.pl-9` - Left
+- `.px-0` ... `.px-9` - Horizontal (left + right)
+- `.py-0` ... `.py-9` - Vertical (top + bottom)
 
 ## Offset Utilities
 - `.top-0` ... `.top-9`, `.right-0` ... `.right-9`, `.bottom-0` ... `.bottom-9`, `.left-0` ... `.left-9`
 
 ## Layout Utilities
+### Display
 - `.d-block`, `.d-inline`, `.d-inline-block`, `.d-none`
+- Responsive: `.d-block-sm/md/lg/xl`, `.d-inline-sm/md/lg/xl`, `.d-inline-block-sm/md/lg/xl`, `.d-none-sm/md/lg/xl`
+
+### Visibility & Position
 - `.visibility-hidden`, `.visibility-visible`
 - `.static`, `.relative`, `.absolute`, `.fixed`, `.sticky`
-- `.overflow-auto`, `.overflow-scroll`, `.overflow-hidden`, `.overflow-x-auto`, `.overflow-x-scroll`, `.overflow-x-hidden`, `.overflow-y-auto`, `.overflow-y-scroll`, `.overflow-y-hidden`
+
+### Overflow
+- `.overflow-auto`, `.overflow-scroll`, `.overflow-hidden`
+- `.overflow-x-auto`, `.overflow-x-scroll`, `.overflow-x-hidden`
+- `.overflow-y-auto`, `.overflow-y-scroll`, `.overflow-y-hidden`
 - `.scroll-smooth`
-- `.flex`, `.inline-flex`, `.flex-row`, `.flex-row-reverse`, `.flex-col`, `.flex-col-reverse`, `.flex-wrap`, `.flex-nowrap`, `.flex-wrap-reverse`, `.flex-1`, `.flex-auto`, `.flex-initial`, `.flex-none`, `.grow`, `.grow-0`, `.shrink`, `.shrink-0`
-- `.justify-start`, `.justify-center`, `.justify-between`, `.justify-end`, `.justify-around`, `.justify-evenly`
-- `.items-start`, `.items-center`, `.items-end`, `.items-baseline`, `.items-stretch`
-- `.content-start`, `.content-center`, `.content-end`, `.content-between`, `.content-around`, `.content-evenly`
-- `.self-auto`, `.self-start`, `.self-center`, `.self-end`, `.self-stretch`, `.self-baseline`
+
+### Flexbox
+- `.flex`, `.inline-flex`
+- `.flex-row`, `.flex-row-reverse`, `.flex-col`, `.flex-col-reverse`
+- `.flex-wrap`, `.flex-nowrap`, `.flex-wrap-reverse`
+- `.flex-1`, `.flex-auto`, `.flex-initial`, `.flex-none`
+- `.grow`, `.grow-0`, `.shrink`, `.shrink-0`
+- Responsive: `.flex-sm/md/lg/xl`, `.flex-row-sm/md/lg/xl`, `.flex-col-sm/md/lg/xl`, `.flex-wrap-sm/md/lg/xl`
+
+### Flexbox Alignment
+- **Justify Content:** `.justify-start`, `.justify-center`, `.justify-between`, `.justify-end`, `.justify-around`, `.justify-evenly`
+- **Align Items:** `.items-start`, `.items-center`, `.items-end`, `.items-baseline`, `.items-stretch`
+- **Align Content:** `.content-start`, `.content-center`, `.content-end`, `.content-between`, `.content-around`, `.content-evenly`
+- **Align Self:** `.self-auto`, `.self-start`, `.self-center`, `.self-end`, `.self-stretch`, `.self-baseline`
+- Responsive: `.items-center-sm/md/lg/xl`, `.justify-center-sm/md/lg/xl`, etc.
+
+### Centering Utility
+- `.center-content` - Flexbox centering (both axes)
 
 ## Content Utilities
 - `.truncate`, `.text-ellipsis`, `.whitespace-nowrap`, `.break-words`
@@ -49,27 +87,107 @@ This file lists **every available utility class** in Lightpack CSS, grouped by c
 - `.grid-rows-min`, `.grid-rows-max`, `.grid-rows-auto`, `.grid-cols-min`, `.grid-cols-max`, `.grid-cols-auto`
 
 ## Typography Utilities
-- `.fs-xs`, `.fs-sm`, `.fs-base`, `.fs-lg`, `.fs-xl`, `.fs-2xl`, `.fs-3xl`
-- `.fw-100`, `.fw-200`, `.fw-300`, `.fw-400`, `.fw-500`, `.fw-600`, `.fw-700`
+### Font Sizes
+- `.fs-xs`, `.fs-sm`, `.fs-base`, `.fs-md`, `.fs-lg`, `.fs-xl`, `.fs-2xl`, `.fs-3xl`, `.fs-4xl`, `.fs-5xl`
+
+### Font Weights
+- `.fw-100`, `.fw-200`, `.fw-300`, `.fw-400`, `.fw-500`, `.fw-600`, `.fw-700`, `.fw-800`, `.fw-900`
+
+### Text Alignment
 - `.text-left`, `.text-center`, `.text-right`, `.text-justify`
+- Responsive: `.text-left-sm/md/lg/xl`, `.text-center-sm/md/lg/xl`, `.text-right-sm/md/lg/xl`, `.text-justify-sm/md/lg/xl`
+
+### Line Height
 - `.lh-base`
 
+### Vertical Alignment
+- `.align-baseline`, `.align-top`, `.align-middle`, `.align-bottom`, `.align-text-top`, `.align-text-bottom`
+
 ## Color Utilities
-- `.bg-[color]`, `.text-[color]` for every color in variables
-- `.bg-muted`, `.text-muted`, `.bg-white`, `.bg-black`, etc.
+### Natural Color Backgrounds
+- `.bg-red`, `.bg-red-light`, `.bg-red-dark`
+- `.bg-pink`, `.bg-pink-light`, `.bg-pink-dark`
+- `.bg-orange`, `.bg-orange-light`, `.bg-orange-dark`
+- `.bg-yellow`, `.bg-yellow-light`, `.bg-yellow-dark`
+- `.bg-green`, `.bg-green-light`, `.bg-green-dark`
+- `.bg-teal`, `.bg-teal-light`, `.bg-teal-dark`
+- `.bg-blue`, `.bg-blue-light`, `.bg-blue-dark`
+- `.bg-indigo`, `.bg-indigo-light`, `.bg-indigo-dark`
+- `.bg-purple`, `.bg-purple-light`, `.bg-purple-dark`
+- `.bg-brown`, `.bg-brown-light`, `.bg-brown-dark`
+- `.bg-gray`, `.bg-gray-light`, `.bg-gray-dark`
+- `.bg-black`, `.bg-black-light`, `.bg-black-dark`
+- `.bg-white`, `.bg-white-light`
+- `.bg-muted`
+
+### Semantic Color Backgrounds
+- `.bg-primary`, `.bg-primary-light`, `.bg-primary-lighter`, `.bg-primary-dark`
+- `.bg-secondary`, `.bg-secondary-light`, `.bg-secondary-lighter`, `.bg-secondary-dark`
+- `.bg-success`, `.bg-success-light`, `.bg-success-lighter`, `.bg-success-dark`
+- `.bg-warning`, `.bg-warning-light`, `.bg-warning-lighter`, `.bg-warning-dark`
+- `.bg-danger`, `.bg-danger-light`, `.bg-danger-lighter`, `.bg-danger-dark`
+- `.bg-info`, `.bg-info-light`, `.bg-info-lighter`, `.bg-info-dark`
+- `.bg-accent`, `.bg-accent-light`, `.bg-accent-lighter`, `.bg-accent-dark`
+- `.bg-background`, `.bg-surface`, `.bg-surface-dark`, `.bg-surface-alt`, `.bg-border`, `.bg-border-dark`
+
+### Natural Color Text
+- `.text-red`, `.text-red-light`, `.text-red-dark`
+- `.text-pink`, `.text-pink-light`, `.text-pink-dark`
+- `.text-orange`, `.text-orange-light`, `.text-orange-dark`
+- `.text-yellow`, `.text-yellow-light`, `.text-yellow-dark`
+- `.text-green`, `.text-green-light`, `.text-green-dark`
+- `.text-teal`, `.text-teal-light`, `.text-teal-dark`
+- `.text-blue`, `.text-blue-light`, `.text-blue-dark`
+- `.text-indigo`, `.text-indigo-light`, `.text-indigo-dark`
+- `.text-purple`, `.text-purple-light`, `.text-purple-dark`
+- `.text-brown`, `.text-brown-light`, `.text-brown-dark`
+- `.text-gray`, `.text-gray-light`, `.text-gray-dark`
+- `.text-black`, `.text-black-light`, `.text-black-dark`
+- `.text-white`
+
+### Semantic Color Text
+- `.text-primary`, `.text-primary-light`, `.text-primary-lighter`, `.text-primary-dark`
+- `.text-secondary`, `.text-secondary-light`, `.text-secondary-lighter`, `.text-secondary-dark`
+- `.text-success`, `.text-success-light`, `.text-success-lighter`, `.text-success-dark`
+- `.text-warning`, `.text-warning-light`, `.text-warning-lighter`, `.text-warning-dark`
+- `.text-danger`, `.text-danger-light`, `.text-danger-lighter`, `.text-danger-dark`
+- `.text-info`, `.text-info-light`, `.text-info-lighter`, `.text-info-dark`
+- `.text-accent`, `.text-accent-light`, `.text-accent-lighter`, `.text-accent-dark`
+- `.text`, `.text-muted`, `.text-inverse`
 
 ## Border Utilities
-- `.border`, `.border-red`, `.border-green`, `.border-blue`, `.border-gray`, `.border-black`, `.border-white`
+### Border Sides
+- `.border` - All sides
+- `.border-0` - No border
+- `.border-top`, `.border-right`, `.border-bottom`, `.border-left`
+- `.border-x` - Left + right
+- `.border-y` - Top + bottom
+- `.border-top-0`, `.border-right-0`, `.border-bottom-0`, `.border-left-0`
+- `.border-x-0`, `.border-y-0`
+
+### Border Colors
+- `.border-red`, `.border-green`, `.border-blue`, `.border-indigo`, `.border-gray`, `.border-black`, `.border-white`
+
+### Border Radius
 - `.radius-sm`, `.radius-md`, `.radius-lg`
 
 ## Shadow Utilities
 - `.shadow-sm`, `.shadow-md`, `.shadow-lg`
 
 ## Width/Height Utilities
-- `.w-100`, `.w-xs`, `.w-sm`, `.w-md`, `.w-lg`
-- `.min-w-xs`, `.min-w-sm`, `.min-w-md`, `.min-w-lg`
-- `.max-w-xs`, `.max-w-sm`, `.max-w-md`, `.max-w-lg`
-- `.h-100`, `.h-100vh`, `.min-h-100vh`, `.max-h-50`, `.max-h-75`
+### Width
+- `.w-1` ... `.w-9` - Fixed widths using gap scale
+- `.w-100` - 100% width
+- `.w-xs`, `.w-sm`, `.w-md`, `.w-lg` - Container widths
+- `.min-w-xs`, `.min-w-sm`, `.min-w-md`, `.min-w-lg` - Min widths
+- `.max-w-xs`, `.max-w-sm`, `.max-w-md`, `.max-w-lg` - Max widths
+
+### Height
+- `.h-1` ... `.h-9` - Fixed heights using gap scale
+- `.h-100` - 100% height
+- `.h-100vh` - 100vh height
+- `.min-h-100vh` - Min height 100vh
+- `.max-h-50`, `.max-h-75` - Max heights
 
 ## Opacity Utilities
 - `.opacity-100`, `.opacity-80`, `.opacity-50`, `.opacity-25`, `.opacity-disabled`, `.opacity-overlay`

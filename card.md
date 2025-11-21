@@ -11,7 +11,7 @@
 <div class="demo-container">
   <div class="card max-w-sm">
     <div class="card-header">Title</div>
-    <img class="card-media" src="https://placehold.co/400x200?text=Card+Image" alt="Media" />
+    <img class="card-media" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop" alt="Media" />
     <div class="card-body">Body</div>
     <div class="card-footer">Footer</div>
   </div>
@@ -21,7 +21,7 @@
 ```html
 <div class="card">
   <div class="card-header">Card Title</div>
-  <img class="card-media" src="https://placehold.co/400x200?text=Card+Image" alt="Media" />
+  <img class="card-media" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop" alt="Media" />
   <div class="card-body">Body</div>
   <div class="card-footer">Footer actions</div>
 </div>

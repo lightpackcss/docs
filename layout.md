@@ -19,11 +19,39 @@ This file documents flex-based layout classes in Lightpack CSS.
   - `lg`: 1024px
   - `xl`: 1280px
 
-## Order Utilities
-- (If present in code, document here)
+## Sidebar Layout
 
-## Vertical Alignment Helpers
-- (If present in code, document here)
+Lightpack provides a flexible sidebar layout system for creating app-like interfaces with a fixed sidebar and scrollable main content area.
+
+**Classes:**
+- `.sidebar-layout` - Container for sidebar layout
+- `.sidebar` - Sidebar panel (default width: 270px, customizable via `--sidebar-width`)
+- `.main` - Main content area
+
+**Features:**
+- Responsive: Stacks vertically on mobile (< 768px)
+- Customizable sidebar width via CSS variable
+- Flexbox-based for modern layouts
+
+**Example:**
+```html
+<div class="sidebar-layout">
+  <aside class="sidebar">
+    <!-- Sidebar content -->
+  </aside>
+  <main class="main">
+    <!-- Main content -->
+  </main>
+</div>
+```
+
+**Custom Width:**
+```html
+<div class="sidebar-layout" style="--sidebar-width: 300px;">
+  <aside class="sidebar">...</aside>
+  <main class="main">...</main>
+</div>
+```
 
 ---
 

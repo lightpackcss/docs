@@ -31,10 +31,42 @@ This file documents **every single CSS variable** available in Lightpack CSS for
 - `--color-background`, `--color-surface`, `--color-surface-dark`, `--color-surface-alt`, `--color-border`, `--color-border-dark`, `--color-muted`, `--color-text`, `--color-text-muted`, `--color-text-inverse`
 
 ## Typography Variables
-- `--font-family`
-- `--fs-xs`, `--fs-sm`, `--fs-base`, `--fs-lg`, `--fs-xl`, `--fs-2xl`, `--fs-3xl`
-- `--fw-100`, `--fw-200`, `--fw-300`, `--fw-400`, `--fw-500`, `--fw-600`, `--fw-700`
-- `--line-height-base`
+### Font Families
+- `--font-family-sans` - System UI font stack
+- `--font-family-serif` - Serif font stack
+- `--font-family-mono` - Monospace font stack
+- `--font-family` - Default font family (uses sans)
+
+### Font Sizes
+- `--fs-xs` (0.75rem / 12px)
+- `--fs-sm` (0.875rem / 14px)
+- `--fs-base` (1rem / 16px)
+- `--fs-md` (1.125rem / 18px)
+- `--fs-lg` (1.25rem / 20px)
+- `--fs-xl` (1.5rem / 24px)
+- `--fs-2xl` (1.875rem / 30px)
+- `--fs-3xl` (2.25rem / 36px)
+- `--fs-4xl` (3rem / 48px)
+- `--fs-5xl` (3.75rem / 60px)
+
+### Font Weights
+- `--fw-100`, `--fw-200`, `--fw-300`, `--fw-400`, `--fw-500`, `--fw-600`, `--fw-700`, `--fw-800`, `--fw-900`
+
+### Line Heights
+- `--line-height-base` (1)
+- `--line-height-tight` (1.25)
+- `--line-height-snug` (1.375)
+- `--line-height-normal` (1.5)
+- `--line-height-relaxed` (1.625)
+- `--line-height-loose` (2)
+
+### Letter Spacing
+- `--letter-spacing-tighter` (-0.05em)
+- `--letter-spacing-tight` (-0.025em)
+- `--letter-spacing-normal` (0)
+- `--letter-spacing-wide` (0.025em)
+- `--letter-spacing-wider` (0.05em)
+- `--letter-spacing-widest` (0.1em)
 
 ## Spacing (Gap) Variables
 - `--g-1`, `--g-2`, `--g-3`, `--g-4`, `--g-5`, `--g-6`, `--g-7`, `--g-8`, `--g-9`

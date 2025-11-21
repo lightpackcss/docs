@@ -1,6 +1,6 @@
 # Stepper Component
 
-**Classes:** `.stepper`, `.step`, `.step-label`, `.step-active`, `.step-completed`, `.step-icon`
+**Classes:** `.stepper`, `.step`, `.step-circle`, `.step-label`, `.step-line`, `.step-active`
 
 **Features:**
 - Horizontal or vertical step progress indicators

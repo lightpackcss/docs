@@ -1,10 +1,11 @@
 # Form Component
 
-**Classes:** `.form`, `.input`, `.label`, `.textarea`, `.select`, `.switch`, `.slider`, `.input-group`, `.form-inline`, `.required`
+**Classes:** `.form`, `.input`, `.input-sm`, `.label`, `.textarea`, `.select`, `.switch`, `.slider`, `.input-group`, `.form-inline`, `.required`
 
 **Features:**
 - Modern, accessible form controls
 - Supports text inputs, selects, checkboxes, radios, switches, range sliders, file inputs
+- Small size variant (`.input-sm`) for compact forms
 - Grouped controls and inline forms
 - Responsive layout
 
@@ -86,6 +87,10 @@
         <input type="text" id="search-group" placeholder="Search...">
         <button type="button" class="btn btn-primary">Go</button>
       </div>
+    </div>
+    <div class="mb-4">
+      <label for="small-input">Small Input</label>
+      <input type="text" id="small-input" class="input-sm" placeholder="Small input...">
     </div>
     <div class="mb-4">
       <button type="submit" class="btn btn-primary">Submit</button>
