@@ -18,10 +18,13 @@
 
 **Usage:**
 ```html
-<button class="drawer-toggle">Left Drawer</button>
-<div class="drawer drawer-left" id="drawer">
+<button data-drawer-open="left-drawer">Open Left Drawer</button>
+<div class="drawer drawer-left" id="left-drawer">
   <div class="drawer-backdrop"></div>
-  <div class="drawer-panel">Drawer content here</div>
+  <div class="drawer-panel">
+    <button data-drawer-close>Close</button>
+    <p>Drawer content here</p>
+  </div>
 </div>
 ```
 
@@ -37,14 +40,26 @@
 
 **Usage:**
 ```html
-<button class="drawer-toggle">Right Drawer</button>
-<div class="drawer drawer-right" id="drawer">
+<button data-drawer-open="right-drawer">Open Right Drawer</button>
+<div class="drawer" id="right-drawer">
   <div class="drawer-backdrop"></div>
-  <div class="drawer-panel">Drawer content here</div>
+  <div class="drawer-panel">
+    <button data-drawer-close>Close</button>
+    <p>Drawer content here</p>
+  </div>
 </div>
 ```
 
 **JS Interactivity:**
-- Supports left and right drawers and triggers
+- Use `data-drawer-open="drawerId"` on trigger buttons
+- Use `data-drawer-close` on close buttons inside drawer
+- Clicking backdrop or pressing ESC closes the drawer
+- Default drawer slides from right; use `.drawer-left` for left side
+
+**JavaScript API:**
+```javascript
+// Drawers are initialized automatically via Lightpack.initDrawers()
+// Called on DOMContentLoaded by Lightpack.initAll()
+```
 
 ---

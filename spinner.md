@@ -6,10 +6,18 @@
 - Animated loading spinner
 - Size variants: `.spinner-sm`, `.spinner-lg`
 
+**Example**
+
+<div class="demo-container">
+  <span class="spinner spinner-sm"></span>
+  <span class="spinner"></span>
+  <span class="spinner spinner-lg"></span>
+</div>
+
 **Usage:**
 ```html
-<span class="spinner"></span>
 <span class="spinner spinner-sm"></span>
+<span class="spinner"></span>
 <span class="spinner spinner-lg"></span>
 ```
 

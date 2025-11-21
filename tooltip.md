@@ -1,11 +1,15 @@
 # Tooltip Component
 
-**Classes:** `.tooltip`, `.tooltip-top`, `.tooltip-bottom`, `.tooltip-left`, `.tooltip-right`, `.tooltip-open`
+**Classes:** `.tooltip`
+
+**Attributes:** `data-tooltip` - The tooltip text to display
 
 **Features:**
 - Small popup tooltips for hints
-- Positioning: top, bottom, left, right
-- Show on hover/focus or programmatically
+- Appears on hover/focus
+- Uses `data-tooltip` attribute for content
+- Positioned above element by default
+- Pure CSS implementation (no JavaScript required)
 
 **Example**
 
