@@ -912,5 +912,4 @@ shadow-md, opacity-50, transition-base
 
 ---
 
-For complete variable reference, see [Variables](variables.md).  
 For customization options, see [Customization Guide](customization.md).
